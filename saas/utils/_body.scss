@@ -1,11 +1,11 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: #757575;
+  font-family: $primary-font;
+  color: $grey;
   font-size: 14px;
   letter-spacing: 0.03em;
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: $white;
 }
 .container {
   width: 1200px;
