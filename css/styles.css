@@ -27,6 +27,15 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+img {
+display: block;
+}
+
+p, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
@@ -45,15 +54,7 @@ body {
 padding-top: 94px;
 padding-bottom: 94px;
 }
-img {
-display: block;
-}
 
-p {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
 .footer__social-link:hover, 
 .footer__social-link:focus {
@@ -393,12 +394,6 @@ position: relative;
 }
 
 /* Styles for main section PORTFOLIO PAGE ONLY */
-
-ul {
-padding: 0;
-margin: 0;
-list-style: none;
-}
 
 .portfolio__filter-list {
   display: flex;
