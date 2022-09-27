@@ -1,12 +1,15 @@
-.portfolio__filter-list {
-  display: flex;
+.portfolio{
+background-color: $white;
+
+&__filter-list {
   justify-content: center;
   gap: 8px;
   list-style: none;
   margin-bottom: 50px;
+  display: flex;
   }
-.portfolio__button {
-  background-color: #f5f4fa;
+&__button {
+  background-color: $notwhite;
   border-width: 0;
   height: 38px;
   font-size: 16px;
@@ -16,43 +19,41 @@
   padding: 6px 22px;
   font-family: "Roboto";
   transition: 250ms background-color $transition, 250ms color $transition;
-}
 
-.portfolio__button:focus,
-.portfolio__button:hover {
+  &:focus,
+  &:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-    color: #fff;
+    color: $white;
     background-color: $blue;
     cursor: pointer;
 }
-.portfolio__list {
+}
+&__list {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  list-style: none;
   align-items: center;
   justify-content: center;
 }
-.portfolio__item {
+&__item {
   width: 370px;
   background-color: $white;
   flex-basis: calc((100% - 90px) / 4);
-  margin: 0;
    border: 1px solid $productborder;
   transition: 250ms box-shadow $transition;
-}
-.portfolio__item:hover {
+  
+  &:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
-
-.portfolio__label {
+}
+&__label {
   position: relative;
   overflow: hidden;
 }
-.portfolio__text {
+&__text {
   position: absolute;
   top: 0;
   left: 0;
@@ -69,7 +70,7 @@
   transform: translateY(0);
 }
 
-.portfolio__heading {
+&__heading {
   color: $darkgrey;
   font-size: 18px;
   font-weight: 700;
@@ -80,11 +81,12 @@
   border-left: 1px solid $productborder;
   border-right: 1px solid $productborder;
 }
-.portfolio__description {
+&__description {
   line-height: 1.88;
   font-size: 16px;
   margin: 0;
   padding: 0 24px 20px 24px;
   border: 1px solid $productborder;
   border-top: 0;
+}
 }
