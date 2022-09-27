@@ -1,0 +1,30 @@
+.client {
+  padding: 94px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clients__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid $iconcolor;
+  fill: $iconcolor;
+  border-radius: 4px;
+  transition: 250ms fill $transition, 250ms border-color $transition;
+}
+.clients__link:hover,
+.clients__link:focus {
+  fill: $blue;
+  border-color: $blue;
+}
+.clients__list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
