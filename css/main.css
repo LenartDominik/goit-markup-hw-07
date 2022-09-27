@@ -771,7 +771,7 @@ body {
   fill: #fff;
 }
 
-.client {
+.clients {
   padding: 94px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -787,7 +787,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 .clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -806,13 +805,10 @@ body {
   -webkit-transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1), 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1), 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.clients__link:hover,
-.clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   fill: #2196f3;
   border-color: #2196f3;
 }
-
 .clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
