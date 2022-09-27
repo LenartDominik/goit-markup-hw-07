@@ -278,10 +278,6 @@ position: relative;
 .team {
     background-color: #f5f4fa;
 }
-.our-team {
-  align-items: center;
-  flex-direction: column;
-}
 .team__list {
   display: flex;
   flex-direction: row;
