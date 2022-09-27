@@ -603,4 +603,70 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.working__heading, .team__heading, .clients__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666666667;
+  text-align: center;
+  color: #212121;
+  margin: 0px 0 50px 0;
+}
+
+.working__list {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.working__item {
+  position: relative;
+}
+
+.working__img-label {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 27px 0px;
+  color: #fff;
+  background-color: rgba(47, 48, 58, 0.8);
 }/*# sourceMappingURL=main.css.map */
