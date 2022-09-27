@@ -556,4 +556,51 @@ body {
 .is-hidden .modal {
   -webkit-transform: scale(0);
           transform: scale(0);
+}
+
+.our-speciality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 30px;
+  padding: 94px 0 0 0;
+  justify-content: center;
+}
+.our-speciality__header {
+  font-weight: 700;
+  color: #212121;
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  line-height: 1.1428571429;
+}
+.our-speciality__text {
+  line-height: 0.03em;
+  line-height: 1.71;
+  width: 270px;
+}
+.our-speciality__icon {
+  background-color: #f5f4fa;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }/*# sourceMappingURL=main.css.map */
