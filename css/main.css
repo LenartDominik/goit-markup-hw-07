@@ -262,7 +262,7 @@ body {
 .footer__input:hover, .footer__input:focus {
   border: 1px solid #2196f3;
 }
-.footer .footer__button {
+.footer__button {
   width: 200px;
   height: 50px;
   background: #2196f3;
@@ -287,7 +287,7 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-.footer .footer__button-icon {
+.footer__button-icon {
   margin-left: 24px;
 }
 

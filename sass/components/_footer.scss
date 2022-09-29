@@ -1,5 +1,5 @@
 .footer {
-  background-color: #2f303a;
+  background-color: $darkgrey;
   padding: 60px 0;
 
 &__container {
@@ -65,12 +65,12 @@
   font-family: "Raleway",sans-serif;
   font-size: 26px;
   font-weight: 700;
-  color: #fff;
+  color: $white;
   line-height: 1.193;
   letter-spacing: 0.03em;
 
 &--color {
-  color: #2196f3;
+  color: $blue;
 }
 }
 
@@ -96,7 +96,7 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: #2f303a;
+  background-color: $darkgrey;
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
@@ -105,17 +105,17 @@
   outline: none;
 
   &:hover, &:focus {
-    border: 1px solid #2196f3;
+    border: 1px solid $blue;
   }
 }
 
-.footer__button {
+&__button {
   width: 200px;
   height: 50px;
   background: $blue;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  fill: #fff;
-  color: #fff;
+  fill: $white;
+  color: $white;
   border-radius: 4px;
   margin-left: 12px;
   padding: 10px 0 10px 42px;
@@ -130,7 +130,7 @@
   cursor: pointer;
 }
 
-.footer__button-icon {
+&__button-icon {
   margin-left: 24px;
 }
 }
