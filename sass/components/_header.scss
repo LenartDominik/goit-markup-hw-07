@@ -17,7 +17,7 @@ border-bottom: solid 1px $lightcream;
   line-height: 1.193;
   letter-spacing: 0.03em;
 
-&--color {
+&-color {
   color: $blue;
 }
 }
@@ -29,11 +29,12 @@ border-bottom: solid 1px $lightcream;
   gap: 46px;
   font-weight: 500;
 
-  &--color {
+  &-color {
   color: $notblack;
   transition: 250ms $transition;
 
-  &:hover, &:focus {
+  &:hover, 
+  &:focus {
     color: $blue;
   }
 }
@@ -63,7 +64,7 @@ border-bottom: solid 1px $lightcream;
   align-items: center;
   justify-content: center;
 
-&--color {
+&-color {
   line-height: 1.14;
   color: $grey;
   fill: $grey;

@@ -64,7 +64,7 @@ body {
   line-height: 1.193;
   letter-spacing: 0.03em;
 }
-.header__logo--color {
+.header__logo-color {
   color: #2196f3;
 }
 .header__nav {
@@ -78,12 +78,12 @@ body {
   gap: 46px;
   font-weight: 500;
 }
-.header__nav--color {
+.header__nav-color {
   color: #212121;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header__nav--color:hover, .header__nav--color:focus {
+.header__nav-color:hover, .header__nav-color:focus {
   color: #2196f3;
 }
 .header__active::after {
@@ -118,14 +118,14 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.header__contacts--color {
+.header__contacts-color {
   line-height: 1.14;
   color: #757575;
   fill: #757575;
   -webkit-transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1), 250ms color cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1), 250ms color cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header__contacts--color:hover, .header__contacts--color:focus {
+.header__contacts-color:hover, .header__contacts-color:focus {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -216,7 +216,7 @@ body {
   line-height: 1.193;
   letter-spacing: 0.03em;
 }
-.footer__logo--color {
+.footer__logo-color {
   color: #2196f3;
 }
 .footer__links {
