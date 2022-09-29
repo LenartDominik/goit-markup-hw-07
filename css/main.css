@@ -608,7 +608,7 @@ body {
           align-items: center;
 }
 
-.working__heading, .team__heading, .clients__heading {
+.working__heading {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -630,7 +630,9 @@ body {
   color: #212121;
   margin: 0px 0 50px 0;
 }
-
+.working__item {
+  position: relative;
+}
 .working__list {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -651,11 +653,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
-.working__item {
-  position: relative;
-}
-
 .working__img-label {
   display: block;
   position: absolute;
@@ -688,6 +685,28 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.team__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666666667;
+  text-align: center;
+  color: #212121;
+  margin: 0px 0 50px 0;
 }
 .team__item {
   background-color: #fff;
@@ -787,6 +806,28 @@ body {
 .clients__link:hover, .clients__link:focus {
   fill: #2196f3;
   border-color: #2196f3;
+}
+.clients__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666666667;
+  text-align: center;
+  color: #212121;
+  margin: 0px 0 50px 0;
 }
 .clients__list {
   display: -webkit-box;
